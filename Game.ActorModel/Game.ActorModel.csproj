@@ -48,7 +48,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actors\GameControllerActor.cs" />
+    <Compile Include="Messages\AttackPlayerMessage.cs" />
+    <Compile Include="Messages\JoinGameMessage.cs" />
+    <Compile Include="Messages\PlayerHealthChangedMessage.cs" />
+    <Compile Include="Messages\PlayerStatusMessage.cs" />
+    <Compile Include="Messages\RefreshPlayerStatusMessage.cs" />
+    <Compile Include="Actors\PlayorActor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Actors\SignalRBridgeActor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
